@@ -138,6 +138,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                                           if (s!.length < 6) {
                                             return "Minimum length is 6";
                                           }
+                                          return null;
                                         },
                                         style: const TextStyle(
                                             fontSize: fontSizeLargeMedium,
@@ -173,10 +174,10 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                       ),
                       16.height,
                       _store.status == Status.otp
-                          ? Row(
+                          ? const Row(
                               //    mainAxisAlignment: MainAxisAlignment.center,
                               //   crossAxisAlignment: CrossAxisAlignment.center,
-                              children: const [
+                              children: [
                                 /*  Text('I didn\'t get the Code.',
                                     style: secondaryTextStyle(color: gray)),
                                 4.width,

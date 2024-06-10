@@ -117,8 +117,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
   Future<void> disableBatteryOptimization() async {
     bool? isAllBatteryOptimizationDisabled =
         await DisableBatteryOptimization.isAllBatteryOptimizationDisabled;
-    if (isAllBatteryOptimizationDisabled != null &&
-        !isAllBatteryOptimizationDisabled) {
+    if (!isAllBatteryOptimizationDisabled) {
       DisableBatteryOptimization.showDisableAllOptimizationsSettings(
           language!.lblEnableAutoStart,
           language!.lblFollowTheStepsAndEnableTheAutoStartOfThisApp,

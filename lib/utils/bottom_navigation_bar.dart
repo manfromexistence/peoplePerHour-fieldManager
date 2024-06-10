@@ -646,7 +646,7 @@ class _BottomNavigationBarState extends State<BottomNavigationBar>
       case BottomNavigationBarType.fixed:
         colorTween = ColorTween(
           begin:
-              widget.unselectedItemColor ?? themeData.textTheme.caption!.color,
+              widget.unselectedItemColor ?? themeData.textTheme.bodySmall!.color,
           end: widget.selectedItemColor ?? widget.fixedColor ?? themeColor,
         );
         break;

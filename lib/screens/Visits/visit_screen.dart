@@ -122,7 +122,7 @@ class _VisitScreenState extends State<VisitScreen> {
                                         child: Padding(
                                           padding: const EdgeInsets.all(8.0),
                                           child: Image.file(
-                                            file! as File,
+                                            file!,
                                             height: 200,
                                           ),
                                         ),

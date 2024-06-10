@@ -14,7 +14,7 @@ class _VisitHistoryScreenState extends State<VisitHistoryScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appBar(context, language!.lblVisitHistory),
-      body: Center(
+      body: const Center(
         child: Text('History'),
       ),
     );

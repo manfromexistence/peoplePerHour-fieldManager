@@ -234,7 +234,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             );
                           }
 
-                          return Text('Check in to begin the day');
+                          return const Text('Check in to begin the day');
                         }),
                         AppButton(
                             color: opPrimaryColor,

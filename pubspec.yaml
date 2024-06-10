@@ -51,7 +51,7 @@ dependencies:
   google_fonts: ^5.1.0
   font_awesome_flutter: ^10.5.0
   nb_utils: ^6.0.2
-  intl: ^0.18.0
+  intl: ^0.19.0
 
   #Validation
   validators: ^3.0.0
@@ -101,6 +101,22 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
+  local_auth_android: any
+  local_auth_ios: any
+  vector_math: any
+  flutter_background_service_android: any
+  google_maps_flutter_android: any
+  google_maps_flutter_platform_interface: any
+dependency_overrides:
+  intl: ^0.19.0
+
+
+  local_auth_android: any
+  local_auth_ios: any
+  vector_math: any
+  flutter_background_service_android: any
+  google_maps_flutter_android: any
+  google_maps_flutter_platform_interface: any
 dev_dependencies:
   flutter_test:
     sdk: flutter
